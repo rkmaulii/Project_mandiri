@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/*default semua*/
+*,html, body{
+    margin: 0%;
+    padding: 0%;
+
+}
+/*pengaturan body*/
+body{ 
+    width: 100%;
+    height:100vh ;
+    background-image: url(img/menganti\ 4.png);
+    background-size: cover;
+}
+
+/*navbar*/
+.navbar_utama{
+    display: flex;
+    margin-left: auto;
+    text-decoration: none;
+
+}
+
+/*untuk menghilangkan bulat-bulat di list navbar_utama*/
+.navbar_utama li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: #FAE7A6;
+    opacity: 70%;
+
+}
+
+/*pengaturan warna dan size font navbar*/
+.navbar_utama a{
+    color: black;
+    font-size: 14px;
+}
+
+/*untuk icon akun*/
+.nav-akun img{
+    width: 20px;
+    height: 20px;
+}
+
+/*content1*/
+/*utamanya content1*/
+.content1{
+    display: flex;
+    justify-content: center;
+}
+
+.kotak_utama{
+    width: 400px;
+    height: 480px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f2ecd5;
+    border-radius: 5px;
+}
+
+.judul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.judul p{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;    
+    border-radius: 8px;
+    /*background-color: aliceblue;*/
+}
+
+
+.form{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 5px;
+}
+
+.onebutton{
+    display:flex;
+    margin-left: 90px;
+}
+.button_logout{
+    margin-top: 15px;
+    text-align: center;
+    margin-right: 30px;
+    
+}
+.button_simpan{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.button_logout a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.button_simpan a{
+    color: aliceblue;
+    text-decoration: none;
+}
+

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/*default semua*/
+*,html, body{
+    margin: 0%;
+    padding: 0%;
+
+}
+/*pengaturan body*/
+body{ 
+    width: 100%;
+    height:100vh ;
+    background-image: url(img/bg1.png);
+    background-size: cover;
+}
+
+/*navbar*/
+.navbar_utama{
+    display: flex;
+    margin-left: auto;
+    text-decoration: none;
+
+}
+
+/*untuk menghilangkan bulat-bulat di list navbar_utama*/
+.navbar_utama li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: #FAE7A6;
+    opacity: 70%;
+}
+
+/*pengaturan warna dan size font navbar*/
+.navbar_utama a{
+    color: black;
+    font-size: 14px;
+}
+
+/*untuk icon akun*/
+.nav-akun img{
+    width: 20px;
+    height: 20px;
+}
+
+/*pengaturan content1*/
+.content1{
+    margin-top: -10px;
+    display: flex;
+}
+
+/*pengaturan kelas pertama (class1) di dalam content1*/
+.class1{
+    width: 100px;
+    height: 500px;
+    line-height: 10px;
+    margin-top: -10px;
+}
+
+/*pengaturan kelas img pertama (class1) di dalam content1*/
+.class1 img{
+    width: 245px;
+    height: 145px;
+    justify-items: center;
+    margin-left: 28px;
+}
+
+/*pengaturan kotak kelas pertama (class1) di dalam content1*/
+.kotak1{
+    width: 300px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #A31616;
+    margin-left: 70px;
+}
+
+
+/*pengaturan foto*/
+.foto1{
+    margin-top: 10px;
+}
+
+.foto2{
+    margin-top: 10px;
+}
+
+.foto3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*pengaturan kelas kedua(class2) di dalam content1*/
+.subclass2{
+    width: 700px;
+    height: 400px;
+    margin-left: 35px;
+    background-color: #A31616;
+    margin-top: 0%;
+}
+
+/*pengaturan font judul*/
+.judul p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+
+/*pengaturan font keterangan judul*/
+.ketJudul{
+    color: #fff;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}

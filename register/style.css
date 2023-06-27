@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/*default semua*/
+*,html, body{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+/*pengaturan body*/
+body{ 
+    width: auto;
+    height:100vh ;
+    background-image: url(img/bg1.png);
+    background-size: cover;
+}
+
+
+
+/*content1*/
+/*utamanya content1*/
+.content1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.kotak_utama{
+    width: 400px;
+    height: 450px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f2ecd5;
+    border-radius: 5px;
+}
+
+.judul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.judul p{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;    
+    border-radius: 8px;
+    /*background-color: aliceblue;*/
+}
+
+
+.form{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 5px;
+}
+
+.tombol_pintasan{
+    font-size: 12px;
+    color: black;
+    font-style: underline;
+    text-align: right;
+    margin-right: 10px;
+    line-height: 3px;
+}
+
+.tombol_pintasan a{
+    font-size: 12px;
+    color: black;
+    font-style: underline;
+    text-align: right;
+    margin-right: 10px;
+    line-height: 3px;
+}
+
+
+
+.button_daftar{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button_daftar a{
+    color: #ffff;
+    text-decoration: none;
+}

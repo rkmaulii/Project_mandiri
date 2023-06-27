@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/*default semua*/
+*,html, body{
+    margin: 0%;
+    padding: 0%;
+
+}
+/*pengaturan body*/
+body{ 
+    width: 100%;
+    height:100vh ;
+    background-color: #F2ECD5;
+}
+
+/*navbar*/
+.navbar_utama{
+    display: flex;
+    margin-left: auto;
+    text-decoration: none;
+
+}
+
+/*untuk menghilangkan bulat-bulat di list navbar_utama*/
+.navbar_utama li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: #FAE7A6;
+    opacity: 70%;
+
+}
+
+/*pengaturan warna dan size font navbar*/
+.navbar_utama a{
+    color: black;
+    font-size: 14px;
+}
+
+/*untuk icon akun*/
+.nav-akun img{
+    width: 20px;
+    height: 20px;
+}
+
+.content1 img{
+    width: 100%;
+    height: 70vh;
+    margin-top: -7%;
+}
+
+
+
+.content1 p{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    margin-top: -280px;
+}
+
+.subclass_kotak1{
+    width: 250px;
+    height: 300px;
+    background-color: #c9e2f8;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+.subclass_kotak1 p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subclass_kotak1 h3{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.subclass_kotak1 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 45px
+}
+
+/*kotak2*/
+.subclass_kotak2{
+    width: 250px;
+    height: 300px;
+    background-color: #c9e2f8;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 80px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.subclass_kotak2 p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subclass_kotak2 h3{
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.subclass_kotak2 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 45px
+}
+
+
+/*kotak3*/
+.subclass_kotak3{
+    width: 250px;
+    height: 300px;
+    background-color: #c9e2f8;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.subclass_kotak3 p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subclass_kotak3 h3{
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.subclass_kotak3 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 45px
+}
+
